@@ -42,7 +42,7 @@ function App() {
       <BrowserRouter>
         <Header HandleThemeChange={HandleThemeChange} />
         <Routes>
-          <Route path="/" exact element={<Calculator />} />
+          <Route path="/calculator/" exact element={<Calculator />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
